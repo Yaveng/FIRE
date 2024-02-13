@@ -1,5 +1,6 @@
-# FIRE
-This repository is the implementation of the paper: FIRE: Fast Incremental Recommendation with Graph Signal Processing (TheWebConf 2022).
+Hi there👋.
+
+This repository is the official implementation of the paper ```FIRE: Fast Incremental Recommendation with Graph Signal Processing```, which is accepted by The Web Conference 2022.
 
 If you use the code in your work, please cite our paper.
 
@@ -27,7 +28,7 @@ sparsesvd == 0.2.2
   
   > Note: You should disable the comment of Line 23-27 in ```dataloader.py``` to generate a new column named 'm' when loading data if you use your own dataset.
 
-##### Step 3: run the model.
+##### Step 3: Run the model.
 * For ```Movielens 1M``` dataset:
   ```python
   python main.py --dataset ml1m  --use_user_si --use_item_si

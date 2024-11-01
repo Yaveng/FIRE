@@ -39,4 +39,5 @@ sparsesvd == 0.2.2
   python main.py --dataset douban_movie --num_his_month 9 --num_cur_month 1 --decay_factor 1e-8 --pri_factor 128 --alphas '[0.2,1.0,0,0.2]' --use_item_si --user_threshold 0 --item_threshold 0.6
   ```
 
-  
+### Acknowledgement
+  Our code is built upon [GF-CF](https://github.com/yshenaw/GF_CF), we thank authors for their efforts.
